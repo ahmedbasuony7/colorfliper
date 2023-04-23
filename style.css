@@ -1,0 +1,48 @@
+.nav-center{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+.nav-center h4{
+    color:dodgerblue;
+    font-size: larger;
+}
+
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.btn-hero{
+    margin-left: 70px;
+    width: 150px;
+    height: 50px;
+}
+
+nav{
+    height: 70px;
+    background-color: white;
+}
+
+.nav-links{
+    display: flex;
+}
+.nav-links li a{
+text-decoration: none;
+}
+.nav-links li a:last-child{
+    margin-left: 20px;
+    color: black;
+    font-size: larger;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc;
+}
